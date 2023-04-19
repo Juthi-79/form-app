@@ -60,7 +60,7 @@
 
           <div class="tab-content" id="nav-tabContent" style="background-color:#bee1ff">
             <div class="tab-pane fade show active" id="per" role="tabpanel" aria-labelledby="per-tab" tabindex="0">
-                <form action="" method="">
+                <form class="needs-validation" novalidate action="" method="">
                     <div class="container col-lg-6">
                        <h1 class="text-center">Personal Information</h1>
                        
@@ -68,7 +68,7 @@
                          
                            <label for="fname" class="col-sm-3 col-form-label">Father Name :</label>
                            <div class="col-sm-8">
-                              <input type="text" class="form-control" name="fname" id="fname" placeholder="Father Name"/>
+                              <input type="text" class="form-control" name="fname" id="fname" placeholder="Father Name" required>
                            </div>
                            
                          </div>
@@ -93,9 +93,9 @@
                             </div>
                           </div>
                          <div class="mb-3 row">
-                           <label for="per_email" class="col-sm-3 col-form-label">Personal Email : </label>
+                           <label for="validationDefaultUsername" class="col-sm-3 col-form-label">Personal Email : </label>
                            <div class="col-sm-8">
-                           <input type="email" class="form-control" name="per_email" id="per_email" aria-describedby="emailHelpId" placeholder="Email"/>
+                           <input type="email" class="form-control" name="validationDefaultUsername" id="validationDefaultUsername" aria-describedby="emailHelpId" placeholder="Email" required/>
                            </div>
                          </div>
                          <div class="mb-3 row">
@@ -243,7 +243,7 @@
                         
                         <div class="mb-3 row">
                           
-eerfete
+
 
 
                             <label for="emp_id" class="col-sm-3 col-form-label">Employee Id :</label>
